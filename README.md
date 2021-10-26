@@ -26,29 +26,31 @@
 # 6. Oil_company.ipynb
 ## ***Выбор локации для скважины***
 ## Предоставлены пробы нефти в трёх регионах. Характеристики для каждой скважины в регионе уже известны. Необходимо построить модель для определения региона, где добыча принесёт наибольшую прибыль. Проанализировать возможную прибыль и риски техникой Bootstrap.
-## pandas, numpy, scipy, LinearRegression
+## pandas, numpy, sklearn, LinearRegression
     
 # 7. Gold_mining.ipynb
 ## ***Исследование по добыче золота***
 ## Необходимо построить модель для определения коэффициента восстановления золота из золотосодержащей руды. Предоставлены данные с параметрами добычи и очистки.
-## pandas, numpy, math, scipy, matplotlib, DecisionTreeClassifier, RandomForestClassifier, LogisticRegression, GridSearchCV
+## pandas, numpy, math, sklearn, matplotlib, DecisionTreeClassifier, RandomForestClassifier, LogisticRegression, GridSearchCV
     
 # 8. Protection_of_personal_information.ipynb
 ## ***Защита данных клиентов***
 ## Необходимо разработать метод преобразования данных, чтобы по ним было сложно восстановить персональную информацию. Нужно защитить данные, чтобы при преобразовании качество моделей машинного обучения не ухудшилось.
-## pandas, numpy, scipy, LinearRegression
+## pandas, numpy, sklearn, LinearRegression
     
 # 9. Cars_sale.ipynb
 ## ***Определение стоимости автомобилей***
 ## Сервис по продаже автомобилей с пробегом разрабатывает приложение для привлечения новых клиентов. В нём можно быстро узнать рыночную стоимость своего автомобиля. Предоставлены исторические данные: технические характеристики, комплектации и цены автомобилей. Необходимо построить модель для определения стоимости.
-## pandas, numpy, tqdm, scipy, LinearRegression, LGBMRegressor, XGBRegressor, CatBoostRegressor, GridSearchCV
+## pandas, numpy, tqdm, sklearn, LinearRegression, LGBMRegressor, XGBRegressor, CatBoostRegressor, GridSearchCV
     
 # 10. Taxi_orders.ipynb
 ## ***Прогнозирование заказов такси***
 ## Компания собрала исторические данные о заказах такси в аэропортах. Чтобы привлекать больше водителей в период пиковой нагрузки, нужно спрогнозировать количество заказов такси на следующий час. Постройте модель для такого предсказания.
-## pandas, numpy, matplotlib, scipy, LinearRegression, LGBMRegressor, XGBRegressor, CatBoostRegressor, GridSearchCV, TimeSeriesSplit
+## pandas, numpy, matplotlib, sklearn, LinearRegression, LGBMRegressor, XGBRegressor, CatBoostRegressor, GridSearchCV, TimeSeriesSplit
     
 # 11. Classification_of_comments.ipynb
 ## ***Классификация комментариев клиентов***
 ## Пользователи могут редактировать и дополнять описания товаров, как в вики-сообществах. То есть клиенты предлагают свои правки и комментируют изменения других. Магазину нужен инструмент, который будет искать токсичные комментарии и отправлять их на модерацию. Постройте модель, которая будет классифицировать комментарии на позитивные и негативные.
-## pandas, numpy, tqdm, scipy, LogisticRegression, LGBMClassifier, CatBoostClassifier, GridSearchCV, nltk, WordNetLemmatizer, DistilBertModel
+## pandas, numpy, tqdm, sklearn, LogisticRegression, LGBMClassifier, CatBoostClassifier, GridSearchCV, nltk, WordNetLemmatizer, DistilBertModel
+
+
