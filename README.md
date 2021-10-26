@@ -53,4 +53,7 @@
 ## Пользователи могут редактировать и дополнять описания товаров, как в вики-сообществах. То есть клиенты предлагают свои правки и комментируют изменения других. Магазину нужен инструмент, который будет искать токсичные комментарии и отправлять их на модерацию. Постройте модель, которая будет классифицировать комментарии на позитивные и негативные.
 ## pandas, numpy, tqdm, sklearn, LogisticRegression, LGBMClassifier, CatBoostClassifier, GridSearchCV, nltk, WordNetLemmatizer, DistilBertModel
 
-
+# 12. Steel_melting.ipynb
+## ***Обработка стали***
+## Чтобы оптимизировать производственные расходы, необходимо уменьшить потребление электроэнергии на этапе обработки стали. Для этого постройте модель, которая предскажет температуру стали.
+## pandas, matplotlib, seaborn, sklearn, LinearRegression, LGBMRegressor, XGBRegressor, CatBoostRegressor, GridSearchCV
